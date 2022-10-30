@@ -23,7 +23,7 @@ export class WssService {
     this.socket = connect(environment.wss_url, {
       query: {
         session_id: 1,
-        user_id: current_user_id,
+        name: current_user_id,
       }
     }) as IOSocket;
 
