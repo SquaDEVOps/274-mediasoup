@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   name: 'development',
-  wss_url: 'http://mediasoup.topcamsexybrazil.com:3016'
+  wss_url: 'https://mediasoup.topcamsexybrazil.com:3016'
 };
 
 /*
