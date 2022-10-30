@@ -22,7 +22,7 @@ export class WssService {
   public connect(current_user_id: string) {
     this.socket = connect(environment.wss_url, {
       query: {
-        session_id: 1,
+        room_id: 1,
         name: current_user_id,
       }
     }) as IOSocket;
